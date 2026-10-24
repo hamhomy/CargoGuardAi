@@ -1,0 +1,6 @@
+{
+  "name": "CargoGuard AI™ - Smart Container Protection",
+  "description": "Next-generation smart container protection and AI cargo damage prediction platform featuring date-palm carbon-graphene flexible strain sensors, real-time risk scoring, and digital audit logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
