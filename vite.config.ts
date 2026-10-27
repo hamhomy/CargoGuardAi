@@ -1,10 +1,12 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
+    // أضفنا هذا السطر لكي يتعرف قيت هب على مسار الملفات داخل المستودع
+    base: '/CargoGuardAi/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
